@@ -6,5 +6,4 @@ machine:
     LANG: en_US.UTF-8
 test:
   override:
-    - bundle exec fastlane test
     - bundle exec fastlane adhoc
