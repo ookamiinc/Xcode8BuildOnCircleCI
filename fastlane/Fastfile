@@ -35,7 +35,7 @@ platform :ios do
 
   desc "Build for adhoc"
   lane :adhoc do
-    match(type: "adhoc") # more information: https://codesigning.guide
+    match(type: "adhoc", readonly: true) # more information: https://codesigning.guide
     gym(scheme: "Xcode8BuildOnCircleCI", configuration: "AdHoc") # Build your app - more options available
   end
 
