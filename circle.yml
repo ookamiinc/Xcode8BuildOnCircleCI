@@ -1,0 +1,10 @@
+machine:
+  xcode:
+    version: "8.0"
+  timezone:  Asia/Tokyo
+  environment:
+    LANG: en_US.UTF-8
+test:
+  override:
+    - bundle exec fastlane test
+    - bundle exec fastlane adhoc
