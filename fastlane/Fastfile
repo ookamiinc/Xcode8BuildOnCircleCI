@@ -33,6 +33,12 @@ platform :ios do
     gym(scheme: "Xcode8BuildOnCircleCI", configuration: "Debug") # Build your app - more options available
   end
 
+  desc "Build for adhoc"
+  lane :adhoc do
+    match(type: "adhoc") # more information: https://codesigning.guide
+    gym(scheme: "Xcode8BuildOnCircleCI", configuration: "AdHoc") # Build your app - more options available
+  end
+
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
