@@ -27,6 +27,12 @@ platform :ios do
     scan
   end
 
+  desc "Build for debug"
+  lane :debug_build do
+    match(type: "development") # more information: https://codesigning.guide
+    gym(scheme: "Xcode8BuildOnCircleCI", configuration: "Debug") # Build your app - more options available
+  end
+
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
