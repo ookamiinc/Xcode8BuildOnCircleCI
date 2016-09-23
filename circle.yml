@@ -7,4 +7,5 @@ machine:
 test:
   override:
     - env | grep -v MATCH_PASSWORD
+    - bundle exec env | grep -v MATCH_PASSWORD
     - bundle exec fastlane adhoc
