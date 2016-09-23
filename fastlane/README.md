@@ -16,6 +16,11 @@ Runs all the tests
 fastlane ios debug_build
 ```
 Build for debug
+### ios adhoc
+```
+fastlane ios adhoc
+```
+Build for adhoc
 ### ios beta
 ```
 fastlane ios beta
