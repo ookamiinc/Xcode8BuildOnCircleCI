@@ -39,7 +39,8 @@ platform :ios do
     gym(
       scheme: "Xcode8BuildOnCircleCI",
       configuration: "AdHoc",
-      use_legacy_build_api: false
+      use_legacy_build_api: false,
+      export_method: "ad-hoc"
     )
   end
 
