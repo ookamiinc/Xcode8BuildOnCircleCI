@@ -9,6 +9,6 @@ test:
     - which rvm
     - which rbenv
     - which ruby
-    - env | grep -v MATCH_PASSWORD
-    - bundle exec env | grep -v MATCH_PASSWORD
+    - env | grep -v MATCH_PASSWORD | sort
+    - bundle exec env | grep -v MATCH_PASSWORD | sort
     - bundle exec fastlane adhoc
