@@ -2,4 +2,4 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'fastlane', git: 'https://github.com/nafu/fastlane', branch: 'fix-circleci-build'
+gem 'fastlane', git: 'https://github.com/nafu/fastlane', branch: 'fastlane-6277'
