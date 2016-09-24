@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/nafu/fastlane
-  revision: 72119273bda23dacc8b07abe67b407c9c48fd36b
-  ref: 72119273bda23dacc8b07abe67b407c9c48fd36b
+  revision: b37daa143b13951e0fbd2316b80af25513b8390c
+  ref: b37daa143b13951e0fbd2316b80af25513b8390c
   specs:
     cert (1.4.2)
       fastlane_core (>= 0.52.0, < 1.0.0)
