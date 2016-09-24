@@ -2,4 +2,4 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'fastlane', git: 'https://github.com/nafu/fastlane', ref: '72119273bda23dacc8b07abe67b407c9c48fd36b'
+gem 'fastlane', git: 'https://github.com/nafu/fastlane', ref: '8f673679580e6e539ef6f2de0dfb34794d7a961a'
