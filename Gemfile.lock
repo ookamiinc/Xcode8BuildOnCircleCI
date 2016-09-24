@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nafu/fastlane
-  revision: 1304b2e9390069848dfd399f6ffff073978e4109
+  revision: 8f673679580e6e539ef6f2de0dfb34794d7a961a
   branch: fastlane-6277
   specs:
     cert (1.4.2)
